@@ -1,0 +1,7 @@
+version: '3.5'
+
+services:
+  ui:
+    image: 'wriddhi/next-docker:v2'
+    ports:
+      - '80:3000'
